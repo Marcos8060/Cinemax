@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight&family=Kumbh+Sans&family=Nunito:wght@400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.fade__bottom{
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+}
