@@ -7,7 +7,7 @@ class MovieApi {
         return new Promise((resolve,reject)=>{
             axios.get(API_URL.FETCH_TRENDING)
             .then((res) =>{
-                return resolve(res)
+                return resolve(res.data.results)
             })
             .catch((err) =>{
                 reject(err)
